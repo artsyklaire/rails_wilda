@@ -1,3 +1,75 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+/************Navigation***********/
+
+.anchor {
+  padding-top: 50px;
+}
+
+.nav a{
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: .05em;
+	text-decoration: none;
+	border-radius: 5%;
+}
+
+.projectName p {
+  color: blue;
+	font-weight: 700;
+  text-decoration: none;
+	float: left;
+	font-size: 20px;
+	padding-top: 15px;
+}
+
+
+.projectName p:hover {
+  color: white;
+}
+
+.nav a:hover {
+  color: white;
+}
+
+/************ Index ****************/
+
+html, body {
+	height: 75%;
+}
+
+div {
+    display: block;
+}
+
+h1 {
+  font-family: fantasy;
+  color: blue;
+  text-align: center;
+  padding-top: 50px;
+}
+h2 {
+  font-family: fantasy;
+  color: black;
+  text-align: center;
+}
+
+
+/************ Footer ****************/
+
+footer {
+	color: white;
+	font-weight: lighter;
+	font-size: 1.3em;
+	padding: 50px;
+	padding-top: 100px;
+}
+
+#foot {
+  background-color: black;
+  margin-bottom: 20px;
+  padding: 20px;
+}
