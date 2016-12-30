@@ -1,6 +1,4 @@
-
-class PagesController < ApplicationController
-  def show
-    render template: "static_pages/#{params[:page]}"
+class StaticPagesController < ApplicationController
+  def index
   end
 end
