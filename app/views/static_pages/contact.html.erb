@@ -1,2 +1,64 @@
-<h1>Contact</h1>
-<p>Please contact us at info@wilvirge.com or call: 555-555-5555.</p>
+<div class="container anchor col-lg-12 col-md-12 col-xs-12 p-standard" id="contact">
+    <div class="jumbotron-contact transparent">
+
+      <div class="row"> <!-- Contact Info -->
+    		<div class="contact-main col-lg-8 col-md-6 col-xs-12">
+          <div class="header">
+            <h1>Contact</h1>
+          </div>
+      		<p class="contact-main-text">If you have any inquires for WILDA please reach us at:
+          </p>
+          <p><span class="glyphicon glyphicon-map-marker"></span><strong>50 Franklin St, Worcester, MA 01608 </strong></p>
+          <p><span class="glyphicon glyphicon-phone"></span>Phone:
+          <strong><a href="tel:7745357475">774.535.7475</a></strong></p>
+          <p><span class="glyphicon glyphicon-envelope"></span>E-mail: <strong><a href= "mailto:info@wilvirge.com">info@wilvirge.com</a></strong>
+          </p>
+    		</div> <!-- end main -->
+      </div><!-- Contact Info Ends -->
+
+    <!--  <div class="map">
+        <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJY8pBOGQG5IkRmjz4p5lukI8&key=AIzaSyCMIY6jVM4VSHSw1nJgHBEvLrty7iHv0HM" allowfullscreen></iframe>
+      </div> -->
+      <div id="map"></div>
+
+
+        <div class="row"><!-- Contact Buttons -->
+          <div class="container-icon">
+            <a href="https://twitter.com/WilvirgeCo" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false">Follow @WilvirgeCo</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+          </div>
+
+          <div class="fb-button">
+            <div class="fb-like" data-href="https://www.facebook.com/wilvirgeco" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
+          </div>
+        </div> <!-- End Contact Buttons -->
+
+        <div class="row"> <!-- Contact Form -->
+        <div class="col-xs-12">
+        <div class="contact-form-header">
+          <h2>Inquiries? Drop us a line.</h2>
+        </div><!--header-->
+        <div id="contact_form">
+         <form class="contact-me" action="https://formspree.io/info@wilvirge.com" method="post">
+          <div class="form-group">
+            <label for="name" class="sr-only">Name</label>
+            <input type="text" class="form-control" placeholder="Name" id="name" name="name" title="Please enter your name">
+          </div>
+          <div class="form-group">
+            <label for="email" class="sr-only">Email</label>
+            <input type="email" class="form-control" placeholder="Email*" id="email" name="email" required="required" title="Please enter your email">
+          </div>
+          <label for="text-area" class="sr-only">Send me a message!</label>
+          <textarea style="resize:none" cols="40" maxlength="150" rows="5" class="form-control message-box" placeholder="Send me a message!*" id="text-area" name="text-area" required="required" title="Please enter a message"></textarea>
+            <p id="visible-comment"></p>
+            <p id="char-count"></p>
+            <p>
+              *required fields
+            </p>
+           <button type="submit" class="btn btn-default submit-button" id="button">Submit</button>
+         </form>
+        </div>
+      </div>
+    </div> <!-- End Contact Form -->
+
+  </div> <!-- transparent jumbotron ends -->
+  </div><!-- End Contact Page here -->

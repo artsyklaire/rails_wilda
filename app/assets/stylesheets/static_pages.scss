@@ -3,6 +3,32 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+html, body {
+  margin: 0;
+  padding: 0;
+	height: 100%;
+}
+
+div {
+    display: block;
+}
+
+.transparent {
+  background:#7f7f7f;
+  background:rgba(0,0,0,0.5);
+	padding: 100px;
+}
+
+.p-standard {  /***Parallax settigns***/
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-left: 45px;
+	padding-right: 45px;
+}
+
 /************Navigation***********/
 
 .anchor {
@@ -56,6 +82,144 @@ h2 {
   color: black;
   text-align: center;
 }
+
+/************About************/
+
+.about-intro {
+  position: relative;
+  top: 40px;
+  text-align: left;
+	padding-bottom: 50px;
+}
+
+.about-header h1 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 70px;
+  text-transform: capitalize;
+	text-align: left;
+}
+
+.about-intro p {
+  font-size: 22px;
+	text-align: left;
+	color: #fff;
+}
+
+.about-main-text {
+  font-weight: 550;
+	text-align: left;
+}
+
+#about {
+  padding-bottom: 100px;
+	background-color: white;
+}
+
+/************ Contact Page **********/
+
+.contact-main {
+  position: relative;
+  top: 40px;
+  text-align: left;
+	padding-bottom: 50px;
+}
+
+.contact-main h1 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 70px;
+  text-transform: capitalize;
+	text-align: left;
+}
+
+.contact-main p {
+  font-size: 22px;
+	text-align: left;
+	color: #fff;
+}
+
+.contact-main-text {
+  font-weight: 550;
+	text-align: left;
+}
+
+.glyphicon {
+	padding-right: 10px;
+}
+
+#contact {
+  padding-bottom: 100px;
+	background-color: white;
+}
+
+.form-control {
+	width: 60%;
+}
+
+.contact-form-header {
+	color: white;
+}
+
+#contact_form {
+	color: white;
+}
+
+.fb-like {
+ margin: 0 auto;
+ padding-left: 25px;
+}
+
+.container-icon {
+	float: left;
+	padding-left: 15px;
+}
+
+#map {
+	height: 300px;
+	width: 600px;
+	float: center;
+	margin-bottom: 25px;
+}
+
+/*************Shop***************/
+
+.items {
+  margin-bottom: 10px;
+}
+
+.shop-header {
+	text-align: center;
+	font-size: 40px;
+	color: black;
+	padding-bottom: 30px;
+}
+
+#shop{
+	background-color: white;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.shop-img {
+  display: block; /* needed to center the element with margin */
+  margin: auto; /* center the image inside the column if it's smaller */
+  max-width: 200px; /* needs to be set to the width of your image files if they are relatively small */
+  position: relative; /* is needed for .info position: absolute to work */
+}
+.info {
+  position: absolute;
+  top: 15%;
+  left: 22%;
+  color:#fff;
+  font-family:Futura;
+  text-transform:uppercase;
+  font-weight:700;
+  letter-spacing:0.5em;
+  line-height:1.6;
+	display: none;
+}
+
 
 
 /************ Footer ****************/
